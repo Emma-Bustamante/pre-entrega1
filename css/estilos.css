@@ -3,11 +3,40 @@
     padding: 0%;
 }
 
-/* .slide {
-    margin-top: 10px;
-   
+
+.name{
+    font-family: 'Alfa Slab One', cursive;
 }
 
-.slide img {
-    height: 65vh;
-} */
+.presentacion {
+    font-family: 'Domine', serif
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pt {
+    font-family: 'PT Serif', serif;
+}
+
+body {
+    background: linear-gradient(70deg, rgb(93, 235, 185), rgb(140, 228, 219));
+    
+}
+
+footer {
+    margin-top: 40px;
+}
+.logo {
+    width: 24px;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+.noticia {
+    font-family: 'Noticia Text', serif;
+}
+
