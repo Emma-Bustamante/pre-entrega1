@@ -25,6 +25,9 @@ body {
     
 }
 
+header {
+    margin-bottom: 20px;
+}
 footer {
     margin-top: 40px;
 }
@@ -40,3 +43,11 @@ section {
     font-family: 'Noticia Text', serif;
 }
 
+.logotipo {
+    width: 60px;
+    
+}
+
+.separacion {
+    margin-top: 20px;
+}

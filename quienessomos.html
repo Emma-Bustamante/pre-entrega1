@@ -9,7 +9,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Domine:wght@600;700&family=Gloria+Hallelujah&family=Montserrat:ital,wght@1,900&family=PT+Serif&family=Noticia+Text:ital@1&family=Rubik+Glitch&family=Rubik+Moonrocks&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Domine:wght@600;700&family=Gloria+Hallelujah&family=Montserrat:ital,wght@1,900&family=PT+Serif&family=Noticia+Text:ital@1&family=Rubik+Glitch&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
 </head>
 <body class="container-fluid">
     <header>
@@ -42,31 +43,57 @@
                 </div>
               </nav>
     </header>
-    <main>
-        <h2><b>Quienes Somos</b></h2>
-    <p><i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
-        Nemo, nobis eius placeat officia ipsa omnis repellendus quos voluptatum architecto, voluptatem possimus voluptates vitae ipsam quis, culpa quia fugiat adipisci dolorum.
-    </i>
-    </p>
-    <h1>Nuestro primer local</h1>
-    <img class="image" src="Imagenes/local.png" alt="Local a la calle">
-    <br><a href="index.html">Volver..</a>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h2 class="fs-2"><b>Empresa</b></h2>
+          <p>
+          Como industria en el Cannabis ofrecemos asesoramiento a particulares, empresas, centros educativos, como así tambien a entes gubernamentales,
+          todo ello encuadrado en el marco legal vigente, Ley 27350. Nos dedicamos al estudio y concientización del uso de la planta de cannabis medicinal.
+          Contamos con personal preparado y dedicados a la producción y elaboración de fito-preparados, cosméticos, etc.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h6 class="montserrat text-capitalize">Nuestro primer local</h6>
+          <figure class="figure">
+            <img src="Imagenes/local.png" class="figure-img img-fluid rounded" alt="Local en la zona de Caballito">
+            <figcaption class="figure-caption text-end">Aquí empezamos con productos de jardinería en 2002</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="separacion col-md-12">
+          <p class="noticia animate__bounceOut">Nuestros prinicipales socios en la Industria.</p>
+            <img class="logotipo" src="Imagenes/cananpro.png" alt="Empresa de Cannabis">
+            <img class="logotipo" src="Imagenes/gemmacert.jpg" alt="Empresa de Cannabis">
+            <img class="logotipo" src="Imagenes/mgw.jpg" alt="Empresa de Cannabis">
+            <img class="logotipo" src="Imagenes/thebestgrow.png" alt="Empresa de Cannabis">
+        </div>
+        
+      </div>
+    </div>
+      <br>
+      <span><a href="index.html">Volver..</a></span>
     </main>
     <footer>
         <p class="text-center">Copyleft 2022</p> 
        <div class="d-flex justify-content-evenly">
-         <div >
+         <div>
            <ol class="nav">
-           <li class="nav-item">
-               <a  class="nav-link" href="index.html">Home</a></li>
-           <li class="nav-item"><a class="nav-link" href="productos.html">Products</a></li>
-           <li class="nav-item"><a class="nav-link" href="quienessomos.html">Company</a></li>
-           <li class="nav-item"><a class="nav-link" href="https://www.blogger.com/about/?hl=es" target="_blank">Blog</a></li>
-       </ol>
-     </div>
-     <div>
+            <li class="nav-item"><a  class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="productos.html">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="quienessomos.html">Company</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.blogger.com/about/?hl=es" target="_blank">Blog</a></li>
+            </ol>
+          </div>
+        <div>
      <img src="Imagenes/weed_icon.png" class="logo" alt="">
    </div>
    </footer>
+   <script src="js/wow.min.js"></script>
+   <script>
+       new WOW().init();
+   </script>
 </body>
 </html>
